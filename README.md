@@ -1,5 +1,6 @@
 # Can-Satellite
 Aurdino interfacing with BMP280, DHT11 and NRF24L01
+
 #include "DHT.h"
 #include <Wire.h>
 #include <stdio.h>
@@ -370,5 +371,3 @@ void loop(){
   getData();
   showData();
 }
-
-  
